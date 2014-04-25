@@ -1,0 +1,23 @@
+sdt = service_description_section(
+	transport_stream_id = tvd_ts_id,
+	original_network_id = tvd_orig_network_id,
+	service_loop = [
+		service_loop_item(
+			service_ID = tvd_service_id_sd,
+			EIT_schedule_flag = 0,
+			EIT_present_following_flag = 0,
+			running_status = 4,
+			free_CA_mode = 0,
+			service_descriptor_loop = [
+				service_descriptor(
+					service_type = 1,
+					service_provider_name = "",
+					service_name = "LFASD",
+				),
+			],
+		),
+	],
+	version_number = 0,
+	section_number = 0,
+	last_section_number = 0,
+)

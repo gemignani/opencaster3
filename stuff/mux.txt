@@ -1,0 +1,9 @@
+tscbrmuxer \
+600000 \
+b:15040 pat.ts \
+b:15040 pmt_sd.ts \
+b:3008 sdt.ts \
+b:3008 nit.ts \
+b:2300000 firstvideo.ts \
+b:188000 firstaudio.ts \
+b:27434198 null.ts > prueba1.ts

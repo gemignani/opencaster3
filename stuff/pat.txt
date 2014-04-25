@@ -1,0 +1,17 @@
+pat = program_association_section(
+	transport_stream_id = tvd_ts_id,
+	program_loop = [
+		program_loop_item(
+		# Programa especial para la tabla NIT
+		program_number = 0,
+		PID = 16,
+		),
+		program_loop_item(
+		program_number = tvd_service_id_sd,
+		PID = tvd_pmt_pid_sd,
+		),
+	],
+	version_number = 0,
+	section_number = 0,
+	last_section_number = 0,
+)

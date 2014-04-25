@@ -1,0 +1,21 @@
+pmt_sd = program_map_section(
+	program_number = tvd_service_id_sd,
+	PCR_PID = 2064,
+	program_info_descriptor_loop = [],
+	stream_loop = [
+		stream_loop_item(
+		stream_type = 2, # mpeg2 video stream type
+		elementary_PID = 2064,
+		element_info_descriptor_loop = [
+	]
+),
+	stream_loop_item(
+	stream_type = 3, # mpeg2 audio stream type
+	elementary_PID = 2068,
+	element_info_descriptor_loop = []
+	),
+],
+version_number = 0,
+section_number = 0,
+last_section_number = 0,
+)
